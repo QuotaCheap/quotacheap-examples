@@ -1,0 +1,1 @@
+{"type":"module","scripts":{"start":"node openai-sdk.mjs"},"dependencies":{"openai":"^4.104.0"}}
