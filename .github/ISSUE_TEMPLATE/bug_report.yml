@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a bug in an example or public integration doc
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: input
+    id: sdk
+    attributes:
+      label: SDK/client
+      placeholder: Node.js OpenAI SDK, Python OpenAI SDK, curl, etc.
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message or status code
+  - type: markdown
+    attributes:
+      value: Do not include API keys, secrets, private account identifiers, or billing data.
