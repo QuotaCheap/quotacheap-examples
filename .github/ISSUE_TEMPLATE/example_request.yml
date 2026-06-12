@@ -1,0 +1,27 @@
+name: Example request
+description: Request a new QuotaCheap example
+title: "[Example]: "
+labels: [example]
+body:
+  - type: textarea
+    id: example
+    attributes:
+      label: What example do you want?
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language/framework
+      options:
+        - Node.js
+        - Python
+        - Go
+        - PHP
+        - Browser
+        - Agent workflow
+        - Other
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
